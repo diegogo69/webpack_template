@@ -1,15 +1,5 @@
 # Setting up the webpack project
 
-##  Create project directory 
-
-`mkdir _project_ && cd _project_`
-
-`mkdir src`    
-
-`mkdir src/static src/modules`   
-
-`touch src/index.js src/template.html`
-
 
 ##  Create a package.json
 To create a default one use:
@@ -49,5 +39,13 @@ We use html-loader to load images from an html file like **template.html**
 Runs with `npx webpack serve` and is hosted on <http://localhost:8080/>
 
 `npm install --save-dev webpack-dev-server`
+
+
+## Installing webpack-merge
+
+This allows us to use separate webpack configuration files for different modes, and merge them in a common config file   
+
+`npm install --save-dev webpack-merge`
+
 
 

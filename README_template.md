@@ -34,14 +34,6 @@ They share the same base configuration as *webpack.config.js*.
 - webpack.prod.js
 
 
-### Installing webpack-merge
-
-This allows us to use separate webpack configuration files for different modes, and merge them in a common config file
-
-
-#### `npm install --save-dev webpack-merge`
-
-
 ### Source map values as devtools
 
 These are three valid source map values as `devtool`'s for tracking erros in the logic.
