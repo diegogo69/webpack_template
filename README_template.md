@@ -28,7 +28,7 @@ is the base configuration file, with everything needed to run the project succes
 To work with separate config files for different modes, there are the Webpack **common**, **dev**, and **prod** config files that work using **`webpack-merge`**.   
 They share the same base configuration as *webpack.config.js*.
 
-- webpack.config.js (replaced)
+- ~~webpack.config.js (replaced)~~
 - webpack.common.js
 - webpack.dev.js
 - webpack.prod.js
